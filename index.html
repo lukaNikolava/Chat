@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid Sidebar Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+        <h1>Chat Application</h1>
+    </header>
+    <aside>
+        <div class="menu">
+          <ul class="user-list">
+            <li>User 1</li>
+            <li>User 2</li>
+            <li>User 3</li>
+          </ul>
+        </div>
+    </aside>
+    <main>
+      <div class="chat">
+        <div class="messages">
+          <div class="message received">
+            <p>User 1: Hi there!</p>
+          </div>
+          <div class="message sent">
+            <p>You: Hello!</p>
+          </div>
+        </div>
+        <div class="input">
+            <input type="text" id="messageInput" placeholder="Type your message...">
+            <button id="sendButton">Send</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 ChatApp. All rights reserved.</p>
+    </footer>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
